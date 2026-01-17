@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "asset-01",
+      "name": "asset_01",
+      "category": "hvac",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "asset-02",
+      "name": "asset_02",
+      "category": "servers",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "asset-03",
+      "name": "asset_03",
+      "category": "vehicles",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "asset-04",
+      "name": "asset_04",
+      "category": "tools",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "asset-05",
+      "name": "asset_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "asset-06",
+      "name": "asset_06",
+      "category": "servers",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "asset-07",
+      "name": "asset_07",
+      "category": "vehicles",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "asset-08",
+      "name": "asset_08",
+      "category": "tools",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "asset-09",
+      "name": "asset_09",
+      "category": "hvac",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "asset-10",
+      "name": "asset_10",
+      "category": "servers",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "asset-11",
+      "name": "asset_11",
+      "category": "vehicles",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "asset-12",
+      "name": "asset_12",
+      "category": "tools",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "asset-12",
+    "issue_count": 1
+  }
+}

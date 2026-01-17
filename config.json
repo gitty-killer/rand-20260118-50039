@@ -1,0 +1,13 @@
+{
+  "project_title": "Maintenance Scheduler",
+  "goal": "Track maintenance backlog and prioritize critical assets.",
+  "entity_name": "asset",
+  "amount_label": "downtime_hours",
+  "score_label": "risk_score",
+  "categories": [
+    "hvac",
+    "servers",
+    "vehicles",
+    "tools"
+  ]
+}
